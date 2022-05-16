@@ -8,6 +8,19 @@ namespace SOLID___Help_Lone
 {
     internal class Wizard : Character, IMagicWielder, ITeleporter
     {
-        
+        public void Teleport(int x, int y)
+        {
+            Console.WriteLine("I'm teleporting to " + x + " " + y);
+        }
+
+        public void ThrowFrostNova()
+        {
+            Console.WriteLine("I'm throwing my frost nova");
+        }
+        public void ThrowMagicMisile()
+        {
+            Console.WriteLine("I'm throwing a magic misile");
+        }
+
     }
 }

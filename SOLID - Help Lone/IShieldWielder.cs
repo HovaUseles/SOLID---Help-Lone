@@ -8,15 +8,10 @@ namespace SOLID___Help_Lone
 {
     internal interface IShieldWielder
     {
-        public void RaiseShield()
-        {
-            Console.WriteLine("I'm raising my shield");
-        }
+        public void RaiseShield();
 
-        public void ShieldGlare()
-        {
-            Console.WriteLine("I'm throwing shield glare");
-        }
+        public void ShieldGlare();
+        
 
     }
 }
